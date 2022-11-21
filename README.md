@@ -1,5 +1,12 @@
 # NBU Auto Sign App
 
+**注意：本仓库未提供`<project root>/server/`目录下的server文件，请前往release下载`source.code.with.server-bin.zip`文件，该文件内的源码包含了`server`目录已经对应的处理打卡事件的server文件
+**
+
+**server文件仅适配了宁波大学，server源码暂未建立仓库，如有需要请联系作者。**
+
+**server开发语言为Golang**
+
 ### 快速体验
 
 仅需执行以下两行命令
