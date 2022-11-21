@@ -1,0 +1,41 @@
+{
+  "name": "auto-sign-app",
+  "private": true,
+  "version": "0.2.0",
+  "main": "main.cjs",
+  "type": "module",
+  "build": {
+    "productName": "宁大异地打卡",
+    "extraResources": [
+      "./server/auto-sign-server"
+    ],
+    "asar": false,
+    "mac": {
+      "icon": "public/1024x1024.png"
+    },
+    "win": {
+      "icon": "public/1024x1024.png"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "electron ./",
+    "app:dist": "electron-builder"
+  },
+  "dependencies": {
+    "vue": "^3.2.37",
+    "axios": "^1.1.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "ant-design-vue": "^3.2.13",
+    "axios": "^1.1.3",
+    "cheerio": "^1.0.0-rc.12",
+    "electron": "^21.2.0",
+    "electron-builder": "^23.6.0",
+    "unplugin-vue-components": "^0.22.8",
+    "vite": "^3.1.0"
+  }
+}
