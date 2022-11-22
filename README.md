@@ -2,6 +2,8 @@
 
 喜欢本项目，请点个star支持下吧！
 
+项目效果演示参考见：https://www.bilibili.com/video/BV13P411P7Dc/
+
 **注意：本仓库未提供`<project root>/server/`目录下的server文件，请前往release下载`source.code.with.server-bin.zip`文件，该文件内的源码包含了`server`目录已经对应的处理打卡事件的server文件**
 
 **server文件仅适配了宁波大学，server源码位于仓库[kwhao/auto-sign-app-server](https://github.com/kwhao/auto-sign-app-server)，请自行前往下载编译后并将对应二进制文件放置在本项目根目录下的`server`（若无，请先创建）路径下。**
